@@ -1,7 +1,5 @@
 body{
 margin :0;
-text-align: center;
-
 font-family: 'Merriweather', serif;
 color: #40514E;
 
@@ -37,11 +35,13 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 .top-container{
+  text-align: center !important;
   background-color: #f6f6f6;
   position: relative;
   padding-top: 100px;
 }
 .middle-container{
+  text-align: center !important;
   margin: 100px 0;
 }
 .contact-message{
@@ -49,6 +49,7 @@ h3{
   margin: 40px auto 60px;
 }
 .bottom-container{
+  text-align: center !important;
 background-color: #006b7e;
 padding: 50px 0 20px;
 }
