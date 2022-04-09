@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <link rel="stylesheet" href="css/styles.css">
-  <head>
-    <meta charset="utf-8">
-    <title>Rohit Ahire</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <div class="top-container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Ahire</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Rohit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#middle">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#bottom">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="top-container">
 
     <img class="top-cloud" src="images\cloud.png" alt="cloud-img">
     <h1>I'm Rohit.</h1>
     <h2>a web developer</h2>
     <img class="bottom-cloud" src="images\cloud.png" alt="cloud-img">
     <img src="images\mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container" id="middle">
+    <div class="profile">
+      <img src="images\prog.png" alt="rohit-img">
+      <h2>Hello..</h2>
+      <p>I'm a web developer based in Thane, India.<br> I have a passion for web development and love to create a Website.</p>
     </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img src="images\prog.png" alt="rohit-img">
-        <h2>Hello..</h2>
-        <p>I'm a web developer based in Thane, India.<br> I have a passion for web development and love to create a Website.</p>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="img1" src="images\img1.png" alt="frontend-img">
+        <h3>Web Page Designing & Development (Frontend)</h3>
+        <p>I started learning to code from 2018 to present because I wanted make my own website. over time, I have gained wealth of experience designing and developing a website. </p>
       </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="img1" src="images\img1.png" alt="frontend-img">
-          <h3>Web Page Designing & Development (Frontend)</h3>
-          <p>I started learning to code from 2018 to present because I wanted make my own website. over time, I have gained wealth of experience designing and developing a website.  </p>
-        </div>
-        <div class="skill-row">
-          <img class="img2" src="images\img2.png" alt="backend-img">
-          <h3>Database Development(Backend)</h3>
-          <p>Backend is my favourite skill. I really like to set-up backend in website is a heart of website and I really love to develop Full Stack website. </p>
-        </div>
+      <div class="skill-row">
+        <img class="img2" src="images\img2.png" alt="backend-img">
+        <h3>Database Development(Backend)</h3>
+        <p>Backend is my favourite skill. I really like to set-up backend in website is a heart of website and I really love to develop Full Stack website. </p>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you want to develop your own website.</h3>
+    </div>
+    <hr>
+    <div class="contact-me" id="bottom">
+      <h2>Get In Touch</h2>
+      <h3>If you want to develop your own website.</h3>
       <p class="contact-message">If you have any business and you want to bring that buisness online,think you need my help with something or just fancy saying hey, then get in touch.</p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-      </div>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
     </div>
+  </div>
 
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p>© Rohit Ahire.</p>
-    </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© Rohit Ahire.</p>
+  </div>
 
 
-  </body>
+</body>
+
 </html>
